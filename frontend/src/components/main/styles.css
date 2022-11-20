@@ -2,6 +2,18 @@
     padding: 40px 10px;
 }
 
+ .dsmeta-card {
+    background: #283142;
+    border-radius: 1rem;
+    padding: 3rem 1rem;
+}
+
+.dsmeta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+} 
+
 .dsmeta-sales-title {
     color: #676fff;
     font-size: 2rem;

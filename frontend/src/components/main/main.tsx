@@ -1,5 +1,6 @@
 import './styles.css'
 import icon from '../../assets/img/notification-icon.svg'
+import NotificationButton from '../NotificationButton'
 
 function Main() {
   return(
@@ -39,8 +40,7 @@ function Main() {
                                     <td>R$ 5530.00</td>
                                     <td>
                                         <div className="dsmeta-red-btn-container">
-                                            <div className="dsmeta-red-btn"><img  src={icon}
-                                                    alt="notificar" /></div>
+                                           <NotificationButton />
                                         </div>
                                     </td>
                                 </tr>
@@ -53,8 +53,7 @@ function Main() {
                                     <td>R$ 6800.00</td>
                                     <td>
                                         <div className="dsmeta-red-btn-container">
-                                            <div className="dsmeta-red-btn"><img  src={icon}
-                                                    alt="notificar" /></div>
+                                            <NotificationButton />
                                         </div>
                                     </td>
                                 </tr>
@@ -67,8 +66,7 @@ function Main() {
                                     <td>R$ 7000.00</td>
                                     <td>
                                         <div className="dsmeta-red-btn-container">
-                                            <div className="dsmeta-red-btn"><img  src={icon}
-                                                    alt="notificar" /></div>
+                                            <NotificationButton />
                                         </div>
                                     </td>
                                 </tr>
