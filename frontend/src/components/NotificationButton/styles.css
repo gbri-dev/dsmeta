@@ -1,0 +1,16 @@
+.dsmeta-red-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dsmeta-red-btn {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ff6b72;
+    border-radius: 10px;
+    /* alinha o svg*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
